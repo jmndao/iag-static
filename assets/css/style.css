@@ -487,6 +487,15 @@ a:active {
     color: #fff;
 }
 
+.footer-links span {
+    display: block;
+    padding: 5px 0;
+}
+
+.footer-links span a:hover {
+    font-weight: 600;
+}
+
 
 /* Pages 
 ================================= */
