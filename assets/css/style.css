@@ -150,7 +150,7 @@ a:active {
 }
 
 .carousel-home .carousel-control {
-    background: #5a622c;
+    background: #af1621;
     height: 80px;
     width: 40px;
     top: 50%;
@@ -182,7 +182,7 @@ a:active {
 .carousel-home .carousel-title {
     color: #fff;
     font-family: 'Dosis', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -359,6 +359,12 @@ a:active {
     color: #5a622c;
     border-color: #5a622c;
 }
+
+
+/* Program 
+================================= */
+
+.program {}
 
 
 /* Team 
@@ -918,10 +924,10 @@ form .alert {
 
 @media (max-width: 992px) {
     .carousel-home .carousel-title {
-        font-size: 36px;
+        font-size: 32px;
     }
     .carousel-home .carousel-subtitle {
-        font-size: 14px;
+        font-size: 13px;
     }
     .carousel-home .btn {
         margin-top: 15px;
@@ -979,10 +985,10 @@ form .alert {
         border-top-color: #5a622c;
     }
     .carousel-home .carousel-title {
-        font-size: 32px;
+        font-size: 28px;
     }
     .carousel-home .carousel-subtitle {
-        font-size: 12px;
+        font-size: 11px;
     }
     .carousel-home .carousel-control {
         background: #5a622c;
@@ -1005,11 +1011,11 @@ form .alert {
 
 @media (max-width: 480px) {
     .carousel-home .carousel-title {
-        font-size: 16px;
+        font-size: 20px;
         margin: 0;
     }
     .carousel-home .carousel-subtitle {
-        font-size: 11px;
+        font-size: 9px;
         margin: 0;
     }
     .carousel-home .carousel-indicators {
