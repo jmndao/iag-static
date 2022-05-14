@@ -496,6 +496,16 @@ a:active {
     font-weight: 600;
 }
 
+.owl-item {
+    /* opacity: 0; */
+    display: none;
+}
+
+.owl-item.active {
+    /* opacity: 1; */
+    display: inline;
+}
+
 
 /* Pages 
 ================================= */
