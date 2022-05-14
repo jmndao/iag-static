@@ -12,7 +12,7 @@
 ========================================================================== */
 
 body {
-    font-family: 'Open sans', sans-serif;
+    font-family: "Open sans", sans-serif;
     color: #000;
 }
 
@@ -20,7 +20,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
 }
 
 a {
@@ -122,7 +122,7 @@ a:active {
 }
 
 .navbar-main li a {
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 18px;
     padding: 20px 15px;
     border-bottom: 2px solid transparent;
@@ -181,7 +181,7 @@ a:active {
 
 .carousel-home .carousel-title {
     color: #fff;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -251,6 +251,14 @@ a:active {
     text-align: left;
     margin-bottom: 25px;
     min-height: 80px;
+}
+
+.about-list {
+    padding: 5px 20px;
+}
+
+.about-list li {
+    list-style-type: square;
 }
 
 
@@ -472,7 +480,7 @@ a:active {
 }
 
 .main-footer .tweet:after {
-    content: '';
+    content: "";
     height: 1px;
     display: block;
     background: #af1621;
@@ -562,7 +570,7 @@ a:active {
 ================================= */
 
 .page-heading {
-    background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
+    background: url("../images/heading-bg.png?1428795369") no-repeat center;
     background-size: cover;
     min-height: 190px;
     color: #fff;
@@ -712,7 +720,7 @@ form .alert {
 }
 
 .title-under:after {
-    content: '';
+    content: "";
     display: block;
     width: 100px;
     background: inherit;
@@ -867,7 +875,7 @@ form .alert {
     right: 5px;
     font-style: 18px;
     display: block;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     bottom: -50px;
     -moz-transition: all, 0.6s;
     -o-transition: all, 0.6s;
@@ -876,12 +884,12 @@ form .alert {
 }
 
 .lightbox .on-hover:before {
-    content: '';
+    content: "";
     display: block;
     width: 46px;
     height: 48px;
     position: absolute;
-    background: url('../images/icons/zoom-icon.png?1428101315');
+    background: url("../images/icons/zoom-icon.png?1428101315");
     top: 50%;
     left: 50%;
     margin-top: -23px;
@@ -1290,7 +1298,7 @@ form .alert {
 
 .dashed-border:before {
     bottom: -0px;
-    content: '';
+    content: "";
     left: -0px;
     position: absolute;
     right: -0px;
@@ -1325,10 +1333,10 @@ form .alert {
     cursor: pointer;
     padding: 20px 0;
     position: relative;
-    stroke: 'black';
-    stroke-width: '4';
-    stroke-dasharray: '21%2c 14%2c 8';
-    stroke-dashoffset: '0';
+    stroke: "black";
+    stroke-width: "4";
+    stroke-dasharray: "21%2c 14%2c 8";
+    stroke-dashoffset: "0";
     stroke-linecap: square;
     transition: all 0.3s ease-in-out;
 }
@@ -1422,6 +1430,23 @@ ul {
     box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
 }
 
+.in-about-wrapper {
+    padding: 20px 0;
+}
+
+.in-about .about_icon i {
+    background-color: #af1621;
+    color: #fff;
+}
+
+.in-about p {
+    font-size: 18px;
+}
+
+.in-about strong {
+    color: #af1621;
+}
+
 .about_header_main .about_heading {
     max-width: 450px;
     font-size: 24px;
@@ -1434,6 +1459,29 @@ ul {
 
 .about_content_box_all {
     padding: 28px;
+}
+
+.about-us-axes {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #af1621;
+    color: #fff;
+    margin: 10px 0px 30px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+
+.about-us-axes p {
+    font-size: 15px;
+}
+
+.about-us-axes-secondary {
+    padding: 40px;
+}
+
+.about-us-axes-secondary p {
+    font-size: 15px;
+    line-height: 25px;
 }
 
 
