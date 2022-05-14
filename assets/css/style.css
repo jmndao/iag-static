@@ -45,11 +45,11 @@ a:active {
 .navbar-static-top {
     margin: 0;
     border: 0;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-top {
-    background: #8d161e;
+    background: #eee;
     font-size: 12px;
     padding: 3px 0;
 }
@@ -68,8 +68,8 @@ a:active {
 
 .navbar-main {
     margin-bottom: 0;
-    color: #fff;
-    background: #af1621;
+    color: #000;
+    background: #fff;
 }
 
 .navbar-main .navbar-brand {
@@ -81,8 +81,8 @@ a:active {
 .navbar-main a:focus,
 .navbar-main a.is-active {
     background: none !important;
-    color: inherit;
-    border-bottom: 2px solid #fff;
+    color: #af1621;
+    border-bottom: 2px solid #af1621;
 }
 
 .navbar-main .submenu {
@@ -756,8 +756,9 @@ form .alert {
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
-    background: #5a622c;
-    color: #fff;
+    background: transparent;
+    color: #af1621;
+    transition: all ease-in-out 200ms;
 }
 
 .nav-tabs>li>a {
@@ -771,7 +772,8 @@ form .alert {
 .nav>li>a:hover,
 .nav>li>a:focus {
     background: #575e2f;
-    color: #fff;
+    color: #af1621;
+    transition: all ease-in-out 200ms;
 }
 
 
