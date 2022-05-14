@@ -678,13 +678,17 @@ form .alert {
 
 .btn-secondary {
     background: #fff;
-    color: #5a622c;
-    border-radius: 0;
+    color: #af1621;
+    font-weight: 800;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .btn-secondary:hover {
-    background: #5a622c;
+    background: #af1621;
     color: #fff;
+    transition: all ease-in-out 200ms;
 }
 
 .title-style-1 {
