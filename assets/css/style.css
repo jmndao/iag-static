@@ -13,7 +13,7 @@
 
 body {
     font-family: "Open sans", sans-serif;
-    color: #575e2f;
+    color: #000;
 }
 
 h1,
@@ -49,7 +49,7 @@ a:active {
 }
 
 .navbar-top {
-    background: #575e2f;
+    background: #8d161e;
     font-size: 12px;
     padding: 3px 0;
 }
@@ -69,7 +69,7 @@ a:active {
 .navbar-main {
     margin-bottom: 0;
     color: #fff;
-    background: #5a622c;
+    background: #af1621;
 }
 
 .navbar-main .navbar-brand {
@@ -174,6 +174,9 @@ a:active {
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .carousel-home .carousel-title {
@@ -185,8 +188,8 @@ a:active {
 }
 
 .carousel-home .carousel-subtitle {
-    font-size: 25px;
-    text-transform: uppercase;
+    font-size: 20px;
+    /* text-transform: no; */
 }
 
 .carousel-home .btn {
@@ -209,12 +212,13 @@ a:active {
     height: 325px;
     padding: 25px;
     text-align: center;
-    background-color: #5a622c;
+    border-radius: 10px;
+    background-color: #af1621;
     /* background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjgwODE0IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43MTkxODYiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSItMjUlIiBzdG9wLWNvbG9yPSIjMTE1YjliIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxMjkwZjgiLz48c3RvcCBvZmZzZXQ9IjEyNSUiIHN0b3AtY29sb3I9IiMxMTViOWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); */
     background-size: 100%;
-    background-image: -moz-linear-gradient( 290deg, #5a622c -25%, #575e2f 50%, #5a622c 125%);
-    background-image: -webkit-linear-gradient( 290deg, #5a622c -25%, #575e2f 50%, #5a622c 125%);
-    background-image: linear-gradient( 160deg, #5a622c -25%, #575e2f 50%, #5a622c 125%);
+    background-image: -moz-linear-gradient( 290deg, #af1621 -25%, #b2343c 50%, #af1621 125%);
+    background-image: -webkit-linear-gradient( 290deg, #af1621 -25%, #b2343c 50%, #af1621 125%);
+    background-image: linear-gradient( 290deg, #af1621 -25%, #b2343c 50%, #af1621 125%);
     color: #fff;
 }
 
@@ -227,7 +231,7 @@ a:active {
 }
 
 .about-us-col .col-details {
-    text-align: justify;
+    text-align: left;
     margin-bottom: 25px;
     min-height: 80px;
 }
@@ -243,6 +247,7 @@ a:active {
 .reasons-col {
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .reasons-col img {
@@ -257,7 +262,7 @@ a:active {
     position: absolute;
     bottom: 0;
     text-align: center;
-    background: rgba(69, 76, 32, 0.8);
+    background: rgba(175, 22, 33, 0.8);
     width: 100%;
     color: #fff;
     text-transform: uppercase;
@@ -267,6 +272,7 @@ a:active {
 
 .reasons-col .reasons-title {
     font-weight: bold;
+    padding: 0 10px;
 }
 
 .reasons-col .on-hover {
@@ -277,7 +283,7 @@ a:active {
     padding: 25px;
     color: #fff;
     text-align: justify;
-    background: rgba(69, 76, 32, 0.9);
+    background: rgba(175, 22, 33, 0.7);
     border-bottom: 1px solid #fff;
     visibility: hidden;
     opacity: 0;
@@ -358,11 +364,11 @@ a:active {
 ================================= */
 
 .team-member {
-    background: #5a622c;
+    background: #af1621;
     color: #fff;
     text-align: center;
     padding-bottom: 15px;
-    border: 1px solid #5a622c;
+    border: 1px solid #af1621;
 }
 
 .team-member .thumnail img {
@@ -382,12 +388,12 @@ a:active {
 ================================= */
 
 .footer-top {
-    background: #575e2f;
+    background: #8d161e;
     height: 40px;
 }
 
 .main-footer {
-    background: #5a622c;
+    background: #af1621;
     color: #fff;
 }
 
@@ -424,7 +430,7 @@ a:active {
     content: "";
     height: 1px;
     display: block;
-    background: #575e2f;
+    background: #af1621;
     width: 150px;
     margin: 15px auto;
 }
@@ -443,7 +449,7 @@ a:active {
 }
 
 .footer-form .form-control {
-    background: #575e2f;
+    background: #af1621;
     color: #fff;
     border: 0;
     border-radius: 0;
@@ -914,7 +920,7 @@ form .alert {
         font-size: 36px;
     }
     .carousel-home .carousel-subtitle {
-        font-size: 18px;
+        font-size: 14px;
     }
     .carousel-home .btn {
         margin-top: 15px;
@@ -975,7 +981,7 @@ form .alert {
         font-size: 32px;
     }
     .carousel-home .carousel-subtitle {
-        font-size: 16px;
+        font-size: 12px;
     }
     .carousel-home .carousel-control {
         background: #5a622c;
@@ -1002,7 +1008,7 @@ form .alert {
         margin: 0;
     }
     .carousel-home .carousel-subtitle {
-        font-size: 14px;
+        font-size: 11px;
         margin: 0;
     }
     .carousel-home .carousel-indicators {
