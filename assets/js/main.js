@@ -33,7 +33,7 @@ $(function() {
     }
 
     /* Contact form ajax Handler
-      ================================================*/
+        ================================================*/
 
     $(".ajax-form").on("submit", function() {
         var form = $(this);
@@ -104,15 +104,15 @@ $(function() {
  	====================================================*/
 
     function initMap() {
-        var mapLatitude = 31.423308; // Google map latitude
-        var mapLongitude = -8.075145; // Google map Longitude
+        var mapLatitude = 14.7104706; // Google map latitude
+        var mapLongitude = -17.476126; // Google map Longitude
 
         var myLatlng = new google.maps.LatLng(mapLatitude, mapLongitude);
 
         var mapOptions = {
             center: myLatlng,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
-            zoom: 10,
+            zoom: 15,
             scrollwheel: false,
         };
 
