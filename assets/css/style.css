@@ -12,7 +12,7 @@
 ========================================================================== */
 
 body {
-    font-family: "Open sans", sans-serif;
+    font-family: 'Open sans', sans-serif;
     color: #000;
 }
 
@@ -20,7 +20,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Dosis", sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 a {
@@ -122,7 +122,7 @@ a:active {
 }
 
 .navbar-main li a {
-    font-family: "Dosis", sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 18px;
     padding: 20px 15px;
     border-bottom: 2px solid transparent;
@@ -138,7 +138,7 @@ a:active {
 }
 
 .navbar-main .icon-bar {
-    background: #fff;
+    background: #af1621;
 }
 
 
@@ -181,7 +181,7 @@ a:active {
 
 .carousel-home .carousel-title {
     color: #fff;
-    font-family: "Dosis", sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -198,6 +198,23 @@ a:active {
 
 .section-home {
     margin: 30px 0;
+}
+
+
+/* home/Presentation 
+================================= */
+
+.presentation {
+    margin: 50px 0;
+}
+
+.presentation-logo {
+    max-height: 300px;
+}
+
+.presentation-logo img {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -455,7 +472,7 @@ a:active {
 }
 
 .main-footer .tweet:after {
-    content: "";
+    content: '';
     height: 1px;
     display: block;
     background: #af1621;
@@ -545,7 +562,7 @@ a:active {
 ================================= */
 
 .page-heading {
-    background: url("../images/heading-bg.jpg?1428795369") no-repeat center;
+    background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
     background-size: cover;
     min-height: 190px;
     color: #fff;
@@ -695,7 +712,7 @@ form .alert {
 }
 
 .title-under:after {
-    content: "";
+    content: '';
     display: block;
     width: 100px;
     background: inherit;
@@ -850,7 +867,7 @@ form .alert {
     right: 5px;
     font-style: 18px;
     display: block;
-    font-family: "Dosis", sans-serif;
+    font-family: 'Dosis', sans-serif;
     bottom: -50px;
     -moz-transition: all, 0.6s;
     -o-transition: all, 0.6s;
@@ -859,12 +876,12 @@ form .alert {
 }
 
 .lightbox .on-hover:before {
-    content: "";
+    content: '';
     display: block;
     width: 46px;
     height: 48px;
     position: absolute;
-    background: url("../images/icons/zoom-icon.png?1428101315");
+    background: url('../images/icons/zoom-icon.png?1428101315');
     top: 50%;
     left: 50%;
     margin-top: -23px;
@@ -1273,7 +1290,7 @@ form .alert {
 
 .dashed-border:before {
     bottom: -0px;
-    content: "";
+    content: '';
     left: -0px;
     position: absolute;
     right: -0px;
@@ -1308,10 +1325,10 @@ form .alert {
     cursor: pointer;
     padding: 20px 0;
     position: relative;
-    stroke: "black";
-    stroke-width: "4";
-    stroke-dasharray: "21%2c 14%2c 8";
-    stroke-dashoffset: "0";
+    stroke: 'black';
+    stroke-width: '4';
+    stroke-dasharray: '21%2c 14%2c 8';
+    stroke-dashoffset: '0';
     stroke-linecap: square;
     transition: all 0.3s ease-in-out;
 }
@@ -1334,6 +1351,15 @@ form .alert {
 
 .mission-col p {
     color: #3e3e3e;
+}
+
+.privacy {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.privacy-section {
+    padding: 40px 0;
 }
 
 
