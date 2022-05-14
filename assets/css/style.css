@@ -493,29 +493,25 @@ a:active {
   color: #fff;
 }
 
-<<<<<<< HEAD
-=======
 .footer-links span {
-    display: block;
-    padding: 5px 0;
+  display: block;
+  padding: 5px 0;
 }
 
 .footer-links span a:hover {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .owl-item {
-    /* opacity: 0; */
-    display: none;
+  /* opacity: 0; */
+  display: none;
 }
 
 .owl-item.active {
-    /* opacity: 1; */
-    display: inline;
+  /* opacity: 1; */
+  display: inline;
 }
 
-
->>>>>>> 8f5b50e0f86d103b698550d65154880081501c6d
 /* Pages 
 ================================= */
 
