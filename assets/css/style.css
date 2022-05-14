@@ -382,6 +382,11 @@ a:active {
     border-bottom: 1px dashed rgb(77, 76, 76);
 }
 
+.row-mt {
+    grid-auto-rows: 1fr !important;
+    margin-top: 30px;
+}
+
 
 /* Team 
 ================================= */
