@@ -1534,3 +1534,35 @@ ul {
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
+
+/* Video Player
+================================= */
+
+.video-player h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#player {
+    padding: 10px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    #player {
+        height: 300px;
+    }
+    .carousel-home .carousel-subtitle {
+        display: none;
+    }
+    .carousel-home .carousel-title {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #player {
+        height: 400px;
+    }
+}
